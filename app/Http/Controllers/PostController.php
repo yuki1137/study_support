@@ -91,5 +91,17 @@ class PostController extends Controller
     {
                 return view('score03');
     }
+    public function ranking01()
+    {
+                return view('ranking01');
+    }
+    public function ranking02()
+    {
+                return view('ranking02');
+    }
+    public function ranking03()
+    {
+                return view('ranking03');
+    }
 }
 

@@ -1,12 +1,28 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-		第三回模試のランキング
+            第二回模試のランキング(総合)
         </h2>
     </x-slot>
 
     <div class="max-w-4xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
         <div class="bg-white shadow-md rounded-lg p-6">
+            <!-- ボタン群 -->
+            <div class="flex justify-center space-x-4 mb-6">
+                <a href="/ranking03" class="bg-blue-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    総合
+                </a>
+                <a href="/ranking03_japanese" class="bg-green-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-green-500">
+                    国語
+                </a>
+                <a href="/ranking03_math" class="bg-red-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-red-500">
+                    数学
+                </a>
+                <a href="/ranking03_english" class="bg-yellow-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                    英語
+                </a>
+            </div>
+
             <!-- ランキングテーブル -->
             <table class="min-w-full divide-y divide-gray-200">
                 <thead class="bg-gray-50">
@@ -32,7 +48,7 @@
                             山田 太郎(仮)
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            95点(仮)
+                            400点(仮)
                         </td>
                     </tr>
                     <tr>
@@ -40,10 +56,10 @@
                             2
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            鈴木 三郎(仮)
+                            鈴木 一郎(仮)
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            89点(仮)
+                            200点(仮)
                         </td>
                     </tr>
                     <!-- ここに他のランキングデータが続きます -->

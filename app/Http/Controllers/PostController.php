@@ -79,6 +79,7 @@ class PostController extends Controller
     {
                 return view('exams');
     }
+
     public function score01()
     {
                 return view('score01');
@@ -98,6 +99,62 @@ class PostController extends Controller
         $school = ['A大学','B大学'];
         // return view('school_registor', ['school' => $school,'schools'=>$schools]);
         return view('school_registor', ['school' => $school]);
+
+    }
+    public function ranking01()
+    {
+                return view('ranking01');
+    }
+    public function ranking01_japanese()
+    {
+                return view('ranking01_japanese');
+    }
+    public function ranking01_math()
+    {
+                return view('ranking01_math');
+    }
+    public function ranking01_english()
+    {
+                return view('ranking01_english');
+    }
+
+
+    public function ranking02()
+    {
+                return view('ranking02');
+    }
+    public function ranking02_japanese()
+    {
+                return view('ranking02_japanese');
+    }
+    public function ranking02_math()
+    {
+                return view('ranking02_math');
+    }
+    public function ranking02_english()
+    {
+                return view('ranking02_english');
+    }
+
+
+
+
+
+    public function ranking03()
+    {
+                return view('ranking03');
+    }
+    public function ranking03_japanese()
+    {
+                return view('ranking03_japanese');
+    }
+    public function ranking03_math()
+    {
+                return view('ranking03_math');
+    }
+    public function ranking03_english()
+    {
+                return view('ranking03_english');
     }
 
 }

@@ -45,6 +45,26 @@ Route::middleware('auth')->group(function () {
     Route::get('/score02', [PostController::class, 'score02'])->name('score02');
     Route::get('/score03', [PostController::class, 'score03'])->name('score03');
 
+    Route::get('/ranking01', [PostController::class, 'ranking01'])->name('ranking01');
+    Route::get('/ranking01_japanese', [PostController::class, 'ranking01_japanese'])->name('ranking01_japanese');
+    Route::get('/ranking01_math', [PostController::class, 'ranking01_math'])->name('ranking01_math');
+    Route::get('/ranking01_english', [PostController::class, 'ranking01_english'])->name('ranking01_english');
+    
+    
+    Route::get('/ranking02', [PostController::class, 'ranking02'])->name('ranking02');
+    Route::get('/ranking02_japanese', [PostController::class, 'ranking02_japanese'])->name('ranking02_japanese');
+    Route::get('/ranking02_math', [PostController::class, 'ranking02_math'])->name('ranking02_math');
+    Route::get('/ranking02_english', [PostController::class, 'ranking02_english'])->name('ranking02_english');
+
+
+
+
+    Route::get('/ranking03', [PostController::class, 'ranking03'])->name('ranking03');
+    Route::get('/ranking03_japanese', [PostController::class, 'ranking03_japanese'])->name('ranking01_japanese');
+    Route::get('/ranking03_math', [PostController::class, 'ranking03_math'])->name('ranking03_math');
+    Route::get('/ranking03_english', [PostController::class, 'ranking03_english'])->name('ranking03_english');
+
+
 });
 
 require __DIR__.'/auth.php';

@@ -45,6 +45,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/score02', [PostController::class, 'score02'])->name('score02');
     Route::get('/score03', [PostController::class, 'score03'])->name('score03');
 
+    Route::get('/ranking01', [PostController::class, 'ranking01'])->name('ranking01');
+    Route::get('/ranking02', [PostController::class, 'ranking02'])->name('ranking02');
+    Route::get('/ranking03', [PostController::class, 'ranking03'])->name('ranking03');
+
 });
 
 require __DIR__.'/auth.php';

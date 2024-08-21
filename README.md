@@ -43,7 +43,7 @@ docker-compose stop
 
 phpMyAdmin: http://localhost:8080/
 
-## コマンドリファレンス
+## コマンドリファレンス(修正？)
 
 ```sh
 # MySQLコンソールにログイン

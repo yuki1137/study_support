@@ -14,7 +14,7 @@
                 <div class="space-y-4">
                     <div class="flex items-center">
                         <p class="text-lg text-gray-800 mr-4">国語</p>
-                        if()<input type="number" name="kokugo" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                        <input type="number" name="kokugo" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </div>
                     <div class="flex items-center">
                         <p class="text-lg text-gray-800 mr-4">数学</p>

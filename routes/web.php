@@ -23,11 +23,6 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
-Route::get('/ai', function () {
-    return view('ai');
-})->name('ai');
-
-
 
 
 Route::middleware('auth')->group(function () {
@@ -43,6 +38,13 @@ Route::middleware('auth')->group(function () {
     Route::delete('/post/{id}', [PostController::class, 'destroy'])->name('post.destroy');
 
     Route::get('/myposts', [PostController::class, 'myPosts'])->name('myposts');
+
+    Route::get('/ai', [PostController::class, 'ai'])->name('ai');
+    Route::get('/exams', [PostController::class, 'exams'])->name('exams');
+    Route::get('/score01', [PostController::class, 'score01'])->name('score01');
+    Route::get('/score02', [PostController::class, 'score02'])->name('score02');
+    Route::get('/score03', [PostController::class, 'score03'])->name('score03');
+
 });
 
 require __DIR__.'/auth.php';

@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('schools', function (Blueprint $table) {
-            $table->id(); #大学ID
-            $table->string('school_name'); #大学名
+        Schema::create('exams', function (Blueprint $table) {
+            $table->id(); #模試ID
+            $table->string('exam_name'); #模試名 例：oo模試第x回
         });
     }
 
@@ -22,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('schools');
+        Schema::dropIfExists('exams');
     }
 };

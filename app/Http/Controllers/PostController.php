@@ -69,5 +69,27 @@ class PostController extends Controller
 
         return redirect()->route('myposts')->with('success', '投稿が削除されました');
     }
+
+    public function ai()
+    {
+                return view('ai');
+    }
+    
+    public function exams()
+    {
+                return view('exams');
+    }
+    public function score01()
+    {
+                return view('score01');
+    }
+    public function score02()
+    {
+                return view('score02');
+    }
+    public function score03()
+    {
+                return view('score03');
+    }
 }
 

@@ -63,6 +63,3 @@ docker-compose exec laravel.test /bin/bash
 
 テストテストテスト
 
-
-
-かわいテスト

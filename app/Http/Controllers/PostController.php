@@ -91,5 +91,14 @@ class PostController extends Controller
     {
                 return view('score03');
     }
+
+    public function school_registor()
+    {
+        // $schools=school::all();
+        $school = ['A大学','B大学'];
+        // return view('school_registor', ['school' => $school,'schools'=>$schools]);
+        return view('school_registor', ['school' => $school]);
+    }
+
 }
 

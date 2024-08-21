@@ -23,7 +23,7 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
-
+Route::get('/school-registor', [PostController::class, 'school_registor'])->name('school_registor');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

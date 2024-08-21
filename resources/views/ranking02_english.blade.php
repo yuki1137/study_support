@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            第二回模試のランキング(総合)
+            第二回模試のランキング(英語)
         </h2>
     </x-slot>
 
@@ -48,7 +48,7 @@
                             山田 太郎(仮)
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            400点(仮)
+                            20点(仮)
                         </td>
                     </tr>
                     <tr>
@@ -59,7 +59,7 @@
                             鈴木 一郎(仮)
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            200点(仮)
+                            20点(仮)
                         </td>
                     </tr>
                     <!-- ここに他のランキングデータが続きます -->

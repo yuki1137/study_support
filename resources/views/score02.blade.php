@@ -27,7 +27,7 @@
                 </div>
                 <!-- 登録ボタン -->
                 <div class="mt-6 flex justify-center">
-                    <a href="{{ route('ranking01') }}" class="bg-white border-b border-gray-200 p-6 block w-full text-center
+                    <a href="{{ route('ranking02') }}" class="bg-white border-b border-gray-200 p-6 block w-full text-center
                     font-semibold text-gray-800 hover:bg-gray-100 text-decoration-none">
                         登録
                     </a>

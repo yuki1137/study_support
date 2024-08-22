@@ -27,7 +27,6 @@
                 <a href="/ranking01_society" class="bg-yellow-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-yellow-500">
                     社会
                 </a>
-
             </div>
 
             <!-- ランキングテーブル -->
@@ -74,4 +73,11 @@
             </table>
         </div>
     </div>
+    
+            <!-- 戻るボタン -->
+            <div class="flex justify-center mt-6">
+                <x-nav-link :href="route('exams')" :active="request()->routeIs('post.index')" style="font-size: 15px; text-decoration: underline; color: #4a5568;">
+                    {{ __('戻る') }}
+                </x-nav-link>
+            </div>
 </x-app-layout>

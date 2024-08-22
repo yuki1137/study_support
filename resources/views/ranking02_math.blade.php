@@ -74,4 +74,11 @@
             </table>
         </div>
     </div>
+        
+            <!-- 戻るボタン -->
+            <div class="flex justify-center mt-6">
+                <x-nav-link :href="route('exams')" :active="request()->routeIs('post.index')" style="font-size: 15px; text-decoration: underline; color: #4a5568;">
+                    {{ __('戻る') }}
+                </x-nav-link>
+            </div>
 </x-app-layout>

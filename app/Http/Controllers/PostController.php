@@ -96,7 +96,7 @@ class PostController extends Controller
 
     public function school_registor()
     {
-        $schools=school::all();
+        $schools=School::all();
         return view('school_registor', ['schools'=>$schools]);
 
     }

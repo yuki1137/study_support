@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\School;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -95,10 +96,8 @@ class PostController extends Controller
 
     public function school_registor()
     {
-        // $schools=school::all();
-        $school = ['A大学','B大学'];
-        // return view('school_registor', ['school' => $school,'schools'=>$schools]);
-        return view('school_registor', ['school' => $school]);
+        $schools=school::all();
+        return view('school_registor', ['schools'=>$schools]);
 
     }
     public function ranking01()

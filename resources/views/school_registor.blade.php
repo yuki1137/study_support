@@ -7,12 +7,12 @@
 
     <form method="POST" action="{{ route('register') }}">
         @csrf
-        @foreach($school as $university)
+        @foreach($schools as $university)
         <div class="max-w-4xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
                 <button class="bg-white shadow-md rounded-lg p-6 w-full text-center text-2xl py-8 transition duration-300 ease-in-out transform  ">
                     <!-- 大学名を列挙 -->
                     <div class="space-y-4">
-                        <p class="text-lg text-gray-800">{{$university}}</p>
+                        <p class="text-lg text-gray-800">{{$university->school_name}}</p> 
                     </div>
                 </button>
             </div>

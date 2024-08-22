@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            第二回模試のランキング(英語)
+            第二回模試のランキング(理科)
         </h2>
     </x-slot>
 
@@ -9,7 +9,7 @@
         <div class="bg-white shadow-md rounded-lg p-6">
             <!-- ボタン群 -->
             <div class="flex justify-center space-x-4 mb-6">
-                <a href="/ranking02" class="bg-gray-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-gray-500">
+            <a href="/ranking02" class="bg-gray-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-gray-500">
                     総合
                 </a>
                 <a href="/ranking02_english" class="bg-orange-500 text-white px-4 py-2 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-orange-500">

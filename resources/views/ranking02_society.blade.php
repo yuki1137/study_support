@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            第二回模試のランキング(英語)
+            第二回模試のランキング(社会)
         </h2>
     </x-slot>
 

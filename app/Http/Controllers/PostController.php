@@ -117,6 +117,15 @@ class PostController extends Controller
     {
                 return view('ranking01_english');
     }
+    public function ranking01_science()
+    {
+                return view('ranking01_science');
+    }
+    public function ranking01_society()
+    {
+                return view('ranking01_society');
+    }
+
 
 
     public function ranking02()
@@ -135,7 +144,14 @@ class PostController extends Controller
     {
                 return view('ranking02_english');
     }
-
+    public function ranking02_science()
+    {
+                return view('ranking02_science');
+    }
+    public function ranking02_society()
+    {
+                return view('ranking02_society');
+    }
 
 
 
@@ -156,6 +172,15 @@ class PostController extends Controller
     {
                 return view('ranking03_english');
     }
+    public function ranking03_science()
+    {
+                return view('ranking03_science');
+    }
+    public function ranking03_society()
+    {
+                return view('ranking03_society');
+    }
+    
 
 }
 

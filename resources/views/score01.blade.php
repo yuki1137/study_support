@@ -13,15 +13,23 @@
                 <!-- 模試選択のテキストと入力ボックス -->
                 <div class="space-y-4">
                     <div class="flex items-center">
-                        <p class="text-lg text-gray-800 mr-4">国語</p>
+                        <p class="text-lg text-gray-800 mr-4">英語</p>
                         <input type="number" name="kokugo" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </div>
                     <div class="flex items-center">
-                        <p class="text-lg text-gray-800 mr-4">数学</p>
+                        <p class="text-lg text-gray-800 mr-4">国語</p>
                         <input type="number" name="suugaku" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </div>
                     <div class="flex items-center">
-                        <p class="text-lg text-gray-800 mr-4">英語</p>
+                        <p class="text-lg text-gray-800 mr-4">数学</p>
+                        <input type="number" name="eigo" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    </div>
+                    <div class="flex items-center">
+                        <p class="text-lg text-gray-800 mr-4">理科</p>
+                        <input type="number" name="eigo" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    </div>
+                    <div class="flex items-center">
+                        <p class="text-lg text-gray-800 mr-4">社会</p>
                         <input type="number" name="eigo" min="0" max="100" class="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </div>
                 </div>

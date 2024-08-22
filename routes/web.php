@@ -23,7 +23,7 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
-Route::get('/school-registor', [PostController::class, 'school_registor'])->name('school_registor');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -68,6 +68,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/ranking03_english', [PostController::class, 'ranking03_english'])->name('ranking03_english');
     Route::get('/ranking03_science', [PostController::class, 'ranking03_science'])->name('ranking03_science');
     Route::get('/ranking03_society', [PostController::class, 'ranking03_society'])->name('ranking03_society');
+  
+    Route::get('/school-registor', [PostController::class, 'school_registor'])->name('school_registor');
 
 });
 

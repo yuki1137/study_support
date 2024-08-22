@@ -49,13 +49,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/ranking01_japanese', [PostController::class, 'ranking01_japanese'])->name('ranking01_japanese');
     Route::get('/ranking01_math', [PostController::class, 'ranking01_math'])->name('ranking01_math');
     Route::get('/ranking01_english', [PostController::class, 'ranking01_english'])->name('ranking01_english');
+    Route::get('/ranking01_science', [PostController::class, 'ranking01_science'])->name('ranking01_science');
+    Route::get('/ranking01_society', [PostController::class, 'ranking01_society'])->name('ranking01_society');
     
     
     Route::get('/ranking02', [PostController::class, 'ranking02'])->name('ranking02');
     Route::get('/ranking02_japanese', [PostController::class, 'ranking02_japanese'])->name('ranking02_japanese');
     Route::get('/ranking02_math', [PostController::class, 'ranking02_math'])->name('ranking02_math');
     Route::get('/ranking02_english', [PostController::class, 'ranking02_english'])->name('ranking02_english');
-
+    Route::get('/ranking02_science', [PostController::class, 'ranking02_science'])->name('ranking02_science');
+    Route::get('/ranking02_society', [PostController::class, 'ranking02_society'])->name('ranking02_society');
 
 
 
@@ -63,7 +66,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/ranking03_japanese', [PostController::class, 'ranking03_japanese'])->name('ranking01_japanese');
     Route::get('/ranking03_math', [PostController::class, 'ranking03_math'])->name('ranking03_math');
     Route::get('/ranking03_english', [PostController::class, 'ranking03_english'])->name('ranking03_english');
-
+    Route::get('/ranking03_science', [PostController::class, 'ranking03_science'])->name('ranking03_science');
+    Route::get('/ranking03_society', [PostController::class, 'ranking03_society'])->name('ranking03_society');
 
 });
 

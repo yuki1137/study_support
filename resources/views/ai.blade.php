@@ -44,17 +44,20 @@
     </div>
 
     <script>
-        document.getElementById('send-button').addEventListener('click', function() {
-            const message = document.getElementById('message').value;
+    document.getElementById('send-button').addEventListener('click', function() {
+        const message = document.getElementById('message').value;
 
-            if (message.trim() === '') {
-                alert('メッセージを入力してください。');
-                return;
-            }
+        if (message.trim() === '') {
+            alert('メッセージを入力してください。');
+            return;
+        }
 
-            // 画面遷移を実行
+        // 待ってからページ遷移を実行
+        setTimeout(function() {
             window.location.href = '/ai_answer';
-        });
-    </script>
+        }, 1500); 
+    });
+</script>
+
 
 </x-app-layout>

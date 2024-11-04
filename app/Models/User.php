@@ -43,7 +43,7 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    public function school()
+    public function schools()
     {
         return $this->hasOne(School::class, 'school_id');
     }
@@ -54,6 +54,6 @@ class User extends Authenticatable
      */
     public function exams()
     {
-        return $this->belongsToMany(Exam::class, 'middle', 'student_id', 'exam_id');
+        return $this->belongsToMany(Exam::class, 'middle', 'user_id', 'exam_id');
     }
 }

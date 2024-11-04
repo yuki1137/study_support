@@ -8,6 +8,6 @@
 - [DBeaver](https://dbeaver.io/download/)：データベースクライアント
 ### リポジトリのクローン
 ```
-$ git clone　git@github.com:yuki1137/CAR_app.git
+$ git clone　git@github.com:yuki1137/study_support
 ```
 - これでエラーが出る場合は、SSHの設定ができていない可能性があります。  
